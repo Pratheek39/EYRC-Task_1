@@ -1,0 +1,13 @@
+{
+  "package_name": "eyantrasim_msgs",
+  "non_idl_tuples": [
+    "/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs:msg/Color.msg",
+    "/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs:msg/Pose.msg",
+    "/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs:action/RotateAbsolute.action",
+    "/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs:srv/Kill.srv",
+    "/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs:srv/SetPen.srv",
+    "/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs:srv/Spawn.srv",
+    "/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs:srv/TeleportAbsolute.srv",
+    "/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs:srv/TeleportRelative.srv"
+  ]
+}

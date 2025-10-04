@@ -1,0 +1,7 @@
+{
+  "package_name": "hb_interfaces",
+  "non_idl_tuples": [
+    "/home/pratheek/EYRC-Task_1/src/hb_interfaces:msg/Pose2D.msg",
+    "/home/pratheek/EYRC-Task_1/src/hb_interfaces:msg/Poses2D.msg"
+  ]
+}

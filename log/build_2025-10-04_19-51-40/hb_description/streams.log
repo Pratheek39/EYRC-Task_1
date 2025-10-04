@@ -1,0 +1,294 @@
+[0.015s] Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake /home/pratheek/EYRC-Task_1/src/hb_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pratheek/EYRC-Task_1/install/hb_description
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.351s] -- The CXX compiler identification is GNU 11.4.0
+[0.374s] -- Detecting C compiler ABI info
+[0.600s] -- Detecting C compiler ABI info - done
+[0.626s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.627s] -- Detecting C compile features
+[0.632s] -- Detecting C compile features - done
+[0.640s] -- Detecting CXX compiler ABI info
+[0.913s] -- Detecting CXX compiler ABI info - done
+[0.926s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.927s] -- Detecting CXX compile features
+[0.928s] -- Detecting CXX compile features - done
+[0.934s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.300s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.446s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.531s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.724s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.731s] -- Added test 'lint_cmake' to check CMake code style
+[1.734s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.781s] -- Added test 'xmllint' to check XML markup files
+[1.785s] -- Configuring done
+[1.797s] -- Generating done
+[1.801s] -- Build files have been written to: /home/pratheek/EYRC-Task_1/build/hb_description
+[1.817s] Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake /home/pratheek/EYRC-Task_1/src/hb_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pratheek/EYRC-Task_1/install/hb_description
+[1.818s] Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/hb_description -- -j2 -l2
+[1.929s] Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/hb_description -- -j2 -l2
+[1.932s] Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/hb_description
+[1.960s] -- Install configuration: ""
+[1.963s] -- Execute custom install script
+[1.963s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//config/controllers.yaml
+[1.988s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//config/gui.config
+[2.017s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//launch/autoeval_1b
+[2.047s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//launch/box_placer_1b
+[2.076s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//launch/rsp.launch.py
+[2.102s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//launch/spawn_holonomic_bot.launch.py
+[2.130s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//launch/task1b_submission.launch.py
+[2.164s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//launch/task1c_submission.launch.py
+[2.193s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//launch/task_1b.launch.py
+[2.221s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//launch/task_1c.launch.py
+[2.250s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//worlds/task_1b.world
+[2.278s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//worlds/task_1c.world
+[2.297s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/arena_terrain/meshes/Hola Batallion Gazebo Texture.png
+[2.311s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/arena_terrain/meshes/arena_terrain.dae
+[2.325s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/arena_terrain/model.config
+[2.341s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/arena_terrain/model.sdf
+[2.358s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue/meshes/blue_texture.png
+[2.373s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue/meshes/box_blue.dae
+[2.387s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue/meshes/marker.png
+[2.403s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue/model.config
+[2.415s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue/model.sdf
+[2.442s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_11/meshes/blue_texture.png
+[2.473s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_11/meshes/box_blue.dae
+[2.487s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_11/meshes/marker_11.png
+[2.500s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_11/model.config
+[2.514s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_11/model.sdf
+[2.529s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_14/meshes/blue_texture.png
+[2.543s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_14/meshes/box_blue.dae
+[2.561s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_14/meshes/marker_14.png
+[2.576s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_14/model.config
+[2.590s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_14/model.sdf
+[2.604s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_17/meshes/blue_texture.png
+[2.625s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_17/meshes/box_blue.dae
+[2.642s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_17/meshes/marker_17.png
+[2.662s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_17/model.config
+[2.674s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_17/model.sdf
+[2.692s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_20/meshes/blue_texture.png
+[2.709s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_20/meshes/box_blue.dae
+[2.722s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_20/meshes/marker_20.png
+[2.737s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_20/model.config
+[2.753s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_20/model.sdf
+[2.773s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_23/meshes/blue_texture.png
+[2.787s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_23/meshes/box_blue.dae
+[2.807s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_23/meshes/marker_23.png
+[2.820s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_23/model.config
+[2.845s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_23/model.sdf
+[2.876s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_26/meshes/blue_texture.png
+[2.904s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_26/meshes/box_blue.dae
+[2.932s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_26/meshes/marker_26.png
+[2.962s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_26/model.config
+[2.992s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_26/model.sdf
+[3.019s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_29/meshes/blue_texture.png
+[3.049s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_29/meshes/box_blue.dae
+[3.078s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_29/meshes/marker_29.png
+[3.106s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_29/model.config
+[3.133s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_29/model.sdf
+[3.159s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_32/meshes/blue_texture.png
+[3.173s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_32/meshes/box_blue.dae
+[3.189s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_32/meshes/marker_32.png
+[3.200s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_32/model.config
+[3.214s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_32/model.sdf
+[3.230s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_35/meshes/blue_texture.png
+[3.241s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_35/meshes/box_blue.dae
+[3.256s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_35/meshes/marker_35.png
+[3.269s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_35/model.config
+[3.284s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_35/model.sdf
+[3.300s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_38/meshes/blue_texture.png
+[3.316s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_38/meshes/box_blue.dae
+[3.327s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_38/meshes/marker_38.png
+[3.341s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_38/model.config
+[3.355s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_38/model.sdf
+[3.370s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_41/meshes/blue_texture.png
+[3.384s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_41/meshes/box_blue.dae
+[3.397s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_41/meshes/marker_41.png
+[3.411s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_41/model.config
+[3.425s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_41/model.sdf
+[3.442s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_44/meshes/blue_texture.png
+[3.451s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_44/meshes/box_blue.dae
+[3.466s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_44/meshes/marker_44.png
+[3.482s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_44/model.config
+[3.496s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_44/model.sdf
+[3.511s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_47/meshes/blue_texture.png
+[3.523s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_47/meshes/box_blue.dae
+[3.539s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_47/meshes/marker_47.png
+[3.556s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_47/model.config
+[3.588s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_blue_47/model.sdf
+[3.607s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green/meshes/box_green.dae
+[3.622s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green/meshes/green_texture.png
+[3.643s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green/meshes/marker.png
+[3.660s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green/model.config
+[3.675s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green/model.sdf
+[3.707s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_10/meshes/box_green.dae
+[3.716s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_10/meshes/green_texture.png
+[3.735s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_10/meshes/marker_10.png
+[3.761s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_10/model.config
+[3.782s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_10/model.sdf
+[3.809s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_13/meshes/box_green.dae
+[3.838s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_13/meshes/green_texture.png
+[3.863s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_13/meshes/marker_13.png
+[3.886s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_13/model.config
+[3.902s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_13/model.sdf
+[3.916s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_16/meshes/box_green.dae
+[3.930s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_16/meshes/green_texture.png
+[3.944s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_16/meshes/marker_16.png
+[3.958s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_16/model.config
+[3.973s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_16/model.sdf
+[3.989s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_19/meshes/box_green.dae
+[4.003s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_19/meshes/green_texture.png
+[4.017s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_19/meshes/marker_19.png
+[4.031s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_19/model.config
+[4.046s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_19/model.sdf
+[4.060s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_22/meshes/box_green.dae
+[4.075s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_22/meshes/green_texture.png
+[4.091s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_22/meshes/marker_22.png
+[4.105s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_22/model.config
+[4.118s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_22/model.sdf
+[4.133s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_25/meshes/box_green.dae
+[4.148s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_25/meshes/green_texture.png
+[4.167s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_25/meshes/marker_25.png
+[4.183s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_25/model.config
+[4.197s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_25/model.sdf
+[4.211s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_28/meshes/box_green.dae
+[4.225s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_28/meshes/green_texture.png
+[4.240s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_28/meshes/marker_28.png
+[4.255s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_28/model.config
+[4.273s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_28/model.sdf
+[4.290s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_31/meshes/box_green.dae
+[4.304s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_31/meshes/green_texture.png
+[4.318s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_31/meshes/marker_31.png
+[4.331s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_31/model.config
+[4.347s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_31/model.sdf
+[4.366s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_34/meshes/box_green.dae
+[4.381s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_34/meshes/green_texture.png
+[4.395s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_34/meshes/marker_34.png
+[4.410s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_34/model.config
+[4.424s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_34/model.sdf
+[4.438s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_37/meshes/box_green.dae
+[4.454s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_37/meshes/green_texture.png
+[4.471s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_37/meshes/marker_37.png
+[4.488s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_37/model.config
+[4.503s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_37/model.sdf
+[4.519s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_40/meshes/box_green.dae
+[4.532s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_40/meshes/green_texture.png
+[4.548s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_40/meshes/marker_40.png
+[4.564s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_40/model.config
+[4.583s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_40/model.sdf
+[4.597s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_43/meshes/box_green.dae
+[4.613s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_43/meshes/green_texture.png
+[4.625s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_43/meshes/marker_43.png
+[4.647s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_43/model.config
+[4.680s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_43/model.sdf
+[4.695s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_46/meshes/box_green.dae
+[4.708s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_46/meshes/green_texture.png
+[4.723s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_46/meshes/marker_46.png
+[4.734s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_46/model.config
+[4.750s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_46/model.sdf
+[4.762s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_49/meshes/box_green.dae
+[4.783s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_49/meshes/green_texture.png
+[4.798s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_49/meshes/marker_49.png
+[4.810s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_49/model.config
+[4.823s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_green_49/model.sdf
+[4.839s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red/meshes/box_red.dae
+[4.852s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red/meshes/marker.png
+[4.864s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red/meshes/red_texture.png
+[4.884s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red/model.config
+[4.898s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red/model.sdf
+[4.915s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_12/meshes/box_red.dae
+[4.926s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_12/meshes/marker_12.png
+[4.940s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_12/meshes/red_texture.png
+[4.955s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_12/model.config
+[4.973s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_12/model.sdf
+[4.989s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_15/meshes/box_red.dae
+[5.004s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_15/meshes/marker_15.png
+[5.017s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_15/meshes/red_texture.png
+[5.032s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_15/model.config
+[5.046s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_15/model.sdf
+[5.061s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_18/meshes/box_red.dae
+[5.082s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_18/meshes/marker_18.png
+[5.101s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_18/meshes/red_texture.png
+[5.128s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_18/model.config
+[5.157s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_18/model.sdf
+[5.188s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_21/meshes/box_red.dae
+[5.216s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_21/meshes/marker_21.png
+[5.241s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_21/meshes/red_texture.png
+[5.270s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_21/model.config
+[5.298s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_21/model.sdf
+[5.327s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_24/meshes/box_red.dae
+[5.354s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_24/meshes/marker_24.png
+[5.381s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_24/meshes/red_texture.png
+[5.405s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_24/model.config
+[5.421s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_24/model.sdf
+[5.446s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_27/meshes/box_red.dae
+[5.463s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_27/meshes/marker_27.png
+[5.474s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_27/meshes/red_texture.png
+[5.489s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_27/model.config
+[5.514s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_27/model.sdf
+[5.542s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_30/meshes/box_red.dae
+[5.569s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_30/meshes/marker_30.png
+[5.598s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_30/meshes/red_texture.png
+[5.625s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_30/model.config
+[5.649s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_30/model.sdf
+[5.679s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_33/meshes/box_red.dae
+[5.709s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_33/meshes/marker_33.png
+[5.734s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_33/meshes/red_texture.png
+[5.763s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_33/model.config
+[5.792s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_33/model.sdf
+[5.820s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_36/meshes/box_red.dae
+[5.848s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_36/meshes/marker_36.png
+[5.879s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_36/meshes/red_texture.png
+[5.908s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_36/model.config
+[5.936s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_36/model.sdf
+[5.963s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_39/meshes/box_red.dae
+[5.992s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_39/meshes/marker_39.png
+[6.020s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_39/meshes/red_texture.png
+[6.051s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_39/model.config
+[6.081s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_39/model.sdf
+[6.114s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_42/meshes/box_red.dae
+[6.143s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_42/meshes/marker_42.png
+[6.170s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_42/meshes/red_texture.png
+[6.205s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_42/model.config
+[6.232s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_42/model.sdf
+[6.260s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_45/meshes/box_red.dae
+[6.288s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_45/meshes/marker_45.png
+[6.316s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_45/meshes/red_texture.png
+[6.346s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_45/model.config
+[6.372s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_45/model.sdf
+[6.405s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_48/meshes/box_red.dae
+[6.434s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_48/meshes/marker_48.png
+[6.464s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_48/meshes/red_texture.png
+[6.496s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_48/model.config
+[6.525s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/boxes/box_red_48/model.sdf
+[6.554s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/camera_box/model.config
+[6.589s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/camera_box/model.sdf
+[6.616s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/ground_plane/meshes/grass.jpg
+[6.634s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/ground_plane/meshes/ground.dae
+[6.648s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/ground_plane/model.config
+[6.666s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/ground_plane/model.sdf
+[6.681s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/holonomic_bot/hb_bot.xacro
+[6.696s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/holonomic_bot/meshes/base.stl
+[6.712s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/holonomic_bot/meshes/bot.dae
+[6.723s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/holonomic_bot/meshes/bot_marker.png
+[6.737s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/holonomic_bot/meshes/rim.stl
+[6.754s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/holonomic_bot/meshes/roller.stl
+[6.766s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/holonomic_bot/meshes/wheel.stl
+[6.784s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/sun/model.config
+[6.802s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description//models/sun/model.sdf
+[6.813s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/lib/hb_description/box_placer_1b
+[6.827s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/lib/hb_description/autoeval_1b
+[6.843s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/ament_index/resource_index/package_run_dependencies/hb_description
+[6.855s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/ament_index/resource_index/parent_prefix_path/hb_description
+[6.873s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/environment/ament_prefix_path.sh
+[6.889s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/environment/ament_prefix_path.dsv
+[6.912s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/environment/path.sh
+[6.937s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/environment/path.dsv
+[6.970s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/local_setup.bash
+[7.000s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/local_setup.sh
+[7.030s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/local_setup.zsh
+[7.059s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/local_setup.dsv
+[7.088s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.dsv
+[7.119s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/ament_index/resource_index/packages/hb_description
+[7.148s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/cmake/hb_descriptionConfig.cmake
+[7.178s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/cmake/hb_descriptionConfig-version.cmake
+[7.208s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.xml
+[7.253s] Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/hb_description

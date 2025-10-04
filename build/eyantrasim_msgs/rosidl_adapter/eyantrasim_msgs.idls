@@ -1,0 +1,8 @@
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_adapter/eyantrasim_msgs:msg/Color.idl
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_adapter/eyantrasim_msgs:msg/Pose.idl
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_adapter/eyantrasim_msgs:action/RotateAbsolute.idl
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_adapter/eyantrasim_msgs:srv/Kill.idl
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_adapter/eyantrasim_msgs:srv/SetPen.idl
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_adapter/eyantrasim_msgs:srv/Spawn.idl
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_adapter/eyantrasim_msgs:srv/TeleportAbsolute.idl
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_adapter/eyantrasim_msgs:srv/TeleportRelative.idl

@@ -1,0 +1,1 @@
+/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs/rosidl_typesupport_introspection_c/eyantrasim_msgs/msg/detail/color__rosidl_typesupport_introspection_c.h
