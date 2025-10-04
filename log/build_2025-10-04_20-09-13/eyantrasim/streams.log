@@ -1,0 +1,25 @@
+[0.023s] Invoking command in '/home/pratheek/EYRC-Task_1/build/eyantrasim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/eyantrasim -- -j2 -l2
+[0.095s] Invoked command in '/home/pratheek/EYRC-Task_1/build/eyantrasim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/eyantrasim -- -j2 -l2
+[0.110s] Invoking command in '/home/pratheek/EYRC-Task_1/build/eyantrasim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/eyantrasim
+[0.121s] -- Install configuration: ""
+[0.124s] -- Execute custom install script
+[0.125s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/launch/sim.launch.py
+[0.126s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/launch/task1a_submission.launch.py
+[0.126s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/lib/eyantrasim/eyantrasim_node
+[0.128s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/lib/eyantrasim/sim_control.py
+[0.128s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/ament_index/resource_index/package_run_dependencies/eyantrasim
+[0.128s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/ament_index/resource_index/parent_prefix_path/eyantrasim
+[0.128s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/environment/ament_prefix_path.sh
+[0.129s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/environment/path.sh
+[0.132s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/environment/path.dsv
+[0.132s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/local_setup.bash
+[0.133s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/local_setup.sh
+[0.133s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/local_setup.zsh
+[0.134s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/local_setup.dsv
+[0.135s] -- Symlinking: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.dsv
+[0.156s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/ament_index/resource_index/packages/eyantrasim
+[0.161s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/cmake/eyantrasimConfig.cmake
+[0.161s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/cmake/eyantrasimConfig-version.cmake
+[0.161s] -- Up-to-date symlink: /home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.xml
+[0.165s] Invoked command in '/home/pratheek/EYRC-Task_1/build/eyantrasim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/eyantrasim

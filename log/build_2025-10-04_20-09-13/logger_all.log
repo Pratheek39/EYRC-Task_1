@@ -1,0 +1,415 @@
+[0.174s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.174s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76d05fd12620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76d05fd12050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76d05fd12050>>, mixin_verb=('build',))
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.433s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pratheek/EYRC-Task_1'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eyantrasim' with type 'ros.ament_cmake' and name 'eyantrasim'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/eyantrasim_msgs) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eyantrasim_msgs' with type 'ros.ament_cmake' and name 'eyantrasim_msgs'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_control) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hb_control' with type 'ros.ament_cmake' and name 'hb_control'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_description) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hb_description' with type 'ros.ament_cmake' and name 'hb_description'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_interfaces) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hb_interfaces' with type 'ros.ament_cmake' and name 'hb_interfaces'
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.512s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/pratheek/EYRC-Task_1/install
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pratheek/ros2_ws/install
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/pratheek/hb_ws/install
+[0.516s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/humble
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'cmake_target' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'cmake_clean_first' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'cmake_force_configure' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'ament_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.578s] DEBUG:colcon.colcon_core.verb:Building package 'eyantrasim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pratheek/EYRC-Task_1/build/eyantrasim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pratheek/EYRC-Task_1/install/eyantrasim', 'merge_install': False, 'path': '/home/pratheek/EYRC-Task_1/src/eyantrasim', 'symlink_install': True, 'test_result_base': None}
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'cmake_target' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'eyantrasim_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.579s] DEBUG:colcon.colcon_core.verb:Building package 'eyantrasim_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs', 'merge_install': False, 'path': '/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hb_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'hb_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pratheek/EYRC-Task_1/build/hb_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pratheek/EYRC-Task_1/install/hb_control', 'merge_install': False, 'path': '/home/pratheek/EYRC-Task_1/src/hb_control', 'symlink_install': True, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.581s] DEBUG:colcon.colcon_core.verb:Building package 'hb_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pratheek/EYRC-Task_1/build/hb_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pratheek/EYRC-Task_1/install/hb_description', 'merge_install': False, 'path': '/home/pratheek/EYRC-Task_1/src/hb_description', 'symlink_install': True, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'hb_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.582s] DEBUG:colcon.colcon_core.verb:Building package 'hb_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pratheek/EYRC-Task_1/build/hb_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pratheek/EYRC-Task_1/install/hb_interfaces', 'merge_install': False, 'path': '/home/pratheek/EYRC-Task_1/src/hb_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.582s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.583s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pratheek/EYRC-Task_1/src/eyantrasim' with build type 'ament_cmake'
+[0.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pratheek/EYRC-Task_1/src/eyantrasim'
+[0.587s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.594s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs' with build type 'ament_cmake'
+[0.594s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pratheek/EYRC-Task_1/src/eyantrasim_msgs'
+[0.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/eyantrasim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/eyantrasim -- -j2 -l2
+[0.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/eyantrasim_msgs -- -j2 -l2
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/eyantrasim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/eyantrasim -- -j2 -l2
+[0.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/eyantrasim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/eyantrasim
+[0.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantrasim)
+[0.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/eyantrasim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/eyantrasim
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim' for CMake module files
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim' for CMake config files
+[0.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantrasim', 'cmake_prefix_path')
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/hook/cmake_prefix_path.ps1'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/hook/cmake_prefix_path.dsv'
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/hook/cmake_prefix_path.sh'
+[0.761s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/lib'
+[0.761s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/bin'
+[0.761s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/lib/pkgconfig/eyantrasim.pc'
+[0.761s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/lib/python3.10/site-packages'
+[0.762s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/bin'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.sh'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.bash'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.zsh'
+[0.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/eyantrasim/share/colcon-core/packages/eyantrasim)
+[0.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantrasim)
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim' for CMake module files
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim' for CMake config files
+[0.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantrasim', 'cmake_prefix_path')
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/hook/cmake_prefix_path.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/hook/cmake_prefix_path.dsv'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/hook/cmake_prefix_path.sh'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/lib'
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/bin'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/lib/pkgconfig/eyantrasim.pc'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/lib/python3.10/site-packages'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim/bin'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.ps1'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.sh'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.bash'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim/share/eyantrasim/package.zsh'
+[0.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/eyantrasim/share/colcon-core/packages/eyantrasim)
+[0.801s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pratheek/EYRC-Task_1/src/hb_control' with build type 'ament_cmake'
+[0.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pratheek/EYRC-Task_1/src/hb_control'
+[0.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/hb_control -- -j2 -l2
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/hb_control -- -j2 -l2
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/hb_control
+[0.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hb_control)
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control' for CMake module files
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/hb_control
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control' for CMake config files
+[0.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_control', 'cmake_prefix_path')
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/hook/cmake_prefix_path.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/hook/cmake_prefix_path.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/hook/cmake_prefix_path.sh'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/lib'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/bin'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/lib/pkgconfig/hb_control.pc'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/lib/python3.10/site-packages'
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/bin'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.ps1'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.sh'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.bash'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.zsh'
+[1.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/hb_control/share/colcon-core/packages/hb_control)
+[1.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hb_control)
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control' for CMake module files
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control' for CMake config files
+[1.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_control', 'cmake_prefix_path')
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/hook/cmake_prefix_path.ps1'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/hook/cmake_prefix_path.dsv'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/hook/cmake_prefix_path.sh'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/lib'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/bin'
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/lib/pkgconfig/hb_control.pc'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/lib/python3.10/site-packages'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_control/bin'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.sh'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.bash'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_control/share/hb_control/package.zsh'
+[1.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/hb_control/share/colcon-core/packages/hb_control)
+[1.031s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pratheek/EYRC-Task_1/src/hb_description' with build type 'ament_cmake'
+[1.033s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pratheek/EYRC-Task_1/src/hb_description'
+[1.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/hb_description -- -j2 -l2
+[1.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/hb_description -- -j2 -l2
+[1.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/hb_description
+[1.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hb_description)
+[1.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/hb_description
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description' for CMake module files
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description' for CMake config files
+[1.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_description', 'cmake_prefix_path')
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/hook/cmake_prefix_path.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/hook/cmake_prefix_path.dsv'
+[1.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/hook/cmake_prefix_path.sh'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/lib'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/bin'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/lib/pkgconfig/hb_description.pc'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/lib/python3.10/site-packages'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/bin'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.sh'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.bash'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.zsh'
+[1.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/hb_description/share/colcon-core/packages/hb_description)
+[1.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hb_description)
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description' for CMake module files
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description' for CMake config files
+[1.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_description', 'cmake_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/hook/cmake_prefix_path.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/hook/cmake_prefix_path.dsv'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/hook/cmake_prefix_path.sh'
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/lib'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/bin'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/lib/pkgconfig/hb_description.pc'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/lib/python3.10/site-packages'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_description/bin'
+[1.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.ps1'
+[1.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.dsv'
+[1.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.sh'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.bash'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_description/share/hb_description/package.zsh'
+[1.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/hb_description/share/colcon-core/packages/hb_description)
+[1.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pratheek/EYRC-Task_1/src/hb_interfaces' with build type 'ament_cmake'
+[1.388s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pratheek/EYRC-Task_1/src/hb_interfaces'
+[1.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/hb_interfaces -- -j2 -l2
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/eyantrasim_msgs -- -j2 -l2
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/eyantrasim_msgs
+[1.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantrasim_msgs)
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs' for CMake module files
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs' for CMake config files
+[1.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantrasim_msgs', 'cmake_prefix_path')
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/cmake_prefix_path.ps1'
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/cmake_prefix_path.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/cmake_prefix_path.sh'
+[1.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/eyantrasim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/eyantrasim_msgs
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/lib'
+[1.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantrasim_msgs', 'ld_library_path_lib')
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/ld_library_path_lib.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/ld_library_path_lib.dsv'
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/ld_library_path_lib.sh'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/bin'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/lib/pkgconfig/eyantrasim_msgs.pc'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/lib/python3.10/site-packages'
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/bin'
+[1.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.ps1'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.sh'
+[1.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.bash'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.zsh'
+[1.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/colcon-core/packages/eyantrasim_msgs)
+[1.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantrasim_msgs)
+[1.898s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs' for CMake module files
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs' for CMake config files
+[1.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantrasim_msgs', 'cmake_prefix_path')
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/cmake_prefix_path.ps1'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/cmake_prefix_path.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/cmake_prefix_path.sh'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/lib'
+[1.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantrasim_msgs', 'ld_library_path_lib')
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/ld_library_path_lib.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/ld_library_path_lib.dsv'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/hook/ld_library_path_lib.sh'
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/bin'
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/lib/pkgconfig/eyantrasim_msgs.pc'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/lib/python3.10/site-packages'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/bin'
+[1.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.ps1'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.dsv'
+[1.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.sh'
+[1.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.bash'
+[1.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/eyantrasim_msgs/package.zsh'
+[1.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/eyantrasim_msgs/share/colcon-core/packages/eyantrasim_msgs)
+[2.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/pratheek/EYRC-Task_1/build/hb_interfaces -- -j2 -l2
+[2.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pratheek/EYRC-Task_1/build/hb_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/hb_interfaces
+[2.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hb_interfaces)
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces' for CMake module files
+[2.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pratheek/EYRC-Task_1/build/hb_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pratheek/ros2_ws/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/pratheek/EYRC-Task_1/build/hb_interfaces
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces' for CMake config files
+[2.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_interfaces', 'cmake_prefix_path')
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/cmake_prefix_path.ps1'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/cmake_prefix_path.dsv'
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/cmake_prefix_path.sh'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/lib'
+[2.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_interfaces', 'ld_library_path_lib')
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/ld_library_path_lib.ps1'
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/ld_library_path_lib.dsv'
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/ld_library_path_lib.sh'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/bin'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/lib/pkgconfig/hb_interfaces.pc'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/lib/python3.10/site-packages'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/bin'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.dsv'
+[2.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.sh'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.bash'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.zsh'
+[2.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/colcon-core/packages/hb_interfaces)
+[2.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hb_interfaces)
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces' for CMake module files
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces' for CMake config files
+[2.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_interfaces', 'cmake_prefix_path')
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/cmake_prefix_path.ps1'
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/cmake_prefix_path.dsv'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/cmake_prefix_path.sh'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/lib'
+[2.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_interfaces', 'ld_library_path_lib')
+[2.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/ld_library_path_lib.ps1'
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/ld_library_path_lib.dsv'
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/hook/ld_library_path_lib.sh'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/bin'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/lib/pkgconfig/hb_interfaces.pc'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/lib/python3.10/site-packages'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/pratheek/EYRC-Task_1/install/hb_interfaces/bin'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.ps1'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.sh'
+[2.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.bash'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/hb_interfaces/package.zsh'
+[2.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pratheek/EYRC-Task_1/install/hb_interfaces/share/colcon-core/packages/hb_interfaces)
+[2.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.408s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.416s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.416s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.416s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.433s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.433s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pratheek/EYRC-Task_1/install/local_setup.ps1'
+[2.435s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pratheek/EYRC-Task_1/install/_local_setup_util_ps1.py'
+[2.440s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pratheek/EYRC-Task_1/install/setup.ps1'
+[2.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pratheek/EYRC-Task_1/install/local_setup.sh'
+[2.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pratheek/EYRC-Task_1/install/_local_setup_util_sh.py'
+[2.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pratheek/EYRC-Task_1/install/setup.sh'
+[2.448s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pratheek/EYRC-Task_1/install/local_setup.bash'
+[2.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pratheek/EYRC-Task_1/install/setup.bash'
+[2.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pratheek/EYRC-Task_1/install/local_setup.zsh'
+[2.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pratheek/EYRC-Task_1/install/setup.zsh'

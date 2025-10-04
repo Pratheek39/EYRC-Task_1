@@ -70,43 +70,82 @@ class BattalionController(Node):
     def pose_frostbite_cb(self, msg):
         self.current_pose_frostbite= msg
 
+    def angle_with_x_axis(self , dy , dx):
+        theta = np.arctan(dy/dx)
 
-    # --- Example controller ---
-    def compute_velocity(self, current_pose : Pose, target_pose):
+        if(dy > 0 and dx > 0):
+            return theta
+        
+        elif(dy > 0 and dx < 0):
+            return theta + np.pi
+        
+        elif(dy < 0 and dx < 0):
+            return theta + np.pi
+        
+        else:
+            return theta + 2*np.pi
+            
+            
+    def current_pose_angle(self , current_pose : Pose):
+        if(current_pose.theta >= 0):
+            return current_pose.theta
+        else:
+            return current_pose.theta + 2 * np.pi
+            
+            
+     # --- Example controller ---
+    def compute_velocity(self, current_pose : Pose, target_pose , bot):
         vel = Twist()
         # implement P/PD controller
         
-        dx = current_pose.x - target_pose[0]
-        dy = current_pose.y - target_pose[1]
+        dx = target_pose[0] - current_pose.x
+        dy = target_pose[1] - current_pose.y
 
         if(abs(dx) <= 1e-5 ):
             theta = np.pi/2 - current_pose.theta 
 
         else :
-            theta = np.arctan(dy/dx) - current_pose.theta
+            theta = self.angle_with_x_axis(dy , dx) - self.current_pose_angle(current_pose)
+          
 
-        if(abs(theta) >= 1e-5 ):
-            vel.angular.z =  theta
+
+
+        if(abs(theta) >= 1e-2 ):
+            vel.angular.z =  4 * theta
+            vel.linear.x = 0.0
             print(f"angle = {theta}")
 
         else:
             d = np.sqrt(dx**2 + dy**2)
-            vel.linear.x = 0.05 * d
-            if(abs(d) < 1e-5):
-                self.targets_glacio = self.targets_glacio[1:]
+            vel.linear.x = 0.2 * d
+            vel.angular.z = 0.0
+            if(abs(d) < 1e-2):
+                if(bot == 1):
+                    self.targets_glacio = self.targets_glacio[1:]
+                elif(bot == 2):
+                    self.targets_frostbite = self.targets_frostbite[1:]
+                else:
+                    self.targets_crystal = self.targets_crystal[1:]
+
                 self.get_logger().warn("target_reached")
 
             print(f"dist = {d}")
-
-    
 
         return vel
 
     # --- Control loop for all bots ---
     def control_loop(self):
         if self.current_pose_glacio and self.targets_glacio:
-            vel = self.compute_velocity(self.current_pose_glacio, self.targets_glacio[0])
+            vel = self.compute_velocity(self.current_pose_glacio, self.targets_glacio[0] , bot = 1)
             self.pub_glacio.publish(vel)
+        
+        if self.current_pose_frostbite and self.targets_frostbite:
+            vel = self.compute_velocity(self.current_pose_frostbite, self.targets_frostbite[0] , bot = 2)
+            self.pub_frostbite.publish(vel)
+
+        if self.current_pose_crystal and self.targets_crystal:
+            vel = self.compute_velocity(self.current_pose_crystal, self.targets_crystal[0] , bot = 3)
+            self.pub_crystal.publish(vel)
 
     def get_coords(self):
         self.get_logger().info(str(self.current_pose_crystal))
